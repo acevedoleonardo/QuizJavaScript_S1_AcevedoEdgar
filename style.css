@@ -1,55 +1,5 @@
+.container {
+    background-color: aqua;
 
-.Fondo {
 
-    width: 430px;
-    height: 932px;
-    margin-bottom: 10px;
-    border: 20px;
-
-}
-
-.hoy{ 
-    background-color: #D0BCFF;
-    display: flex;
-    position: relative;
-    border-radius: 2.5vw;
-    width: 10vw; /*Ancho*/
-    height: 5vw; /*Alto*/
-    margin: 1vw 0vw 0vw 0vw;    
-}
-.mañana{
-    background-color: #D0BCFF;
-    display: flex;
-    position: relative;
-    border-radius: 2.5vw;
-    width: 10vw; /*Ancho*/
-    height: 5vw; /*Alto*/
-    margin: -5vw -5vw 0vw 12vw;
-}
-.diasprox{
-    background-color: #D0BCFF;
-    display: flex;
-    position: relative;
-    border-radius: 2.5vw;
-    width: 10vw; /*Ancho*/
-    height: 5vw; /*Alto*/
-    margin: -5vw 0vw 0vw 25vw;
-}
-.Today{
-    text-decoration: none; /*Para que no aparesca la linea del hipervinculo*/ 
-    font-size: 3vw;
-    color: black; 
-    margin: 1vw 0vw 0vw 0vw;
-}
-.Tomorow{
-    text-decoration: none; /*Para que no aparesca la linea del hipervinculo*/ 
-    font-size: 2.2vw;
-    color: black; 
-    margin: 1vw 0vw 0vw 0vw;
-}
-.Tendays{
-    text-decoration: none; /*Para que no aparesca la linea del hipervinculo*/ 
-    font-size: 2.2vw;
-    color: black; 
-    margin: 1vw 0vw 0vw 0vw;
 }
