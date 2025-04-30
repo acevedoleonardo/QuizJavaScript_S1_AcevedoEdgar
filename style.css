@@ -1,5 +1,169 @@
-.container {
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#encabezado{
+    background-image: url(./images/background-currently.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    
+}
+/* ----------------------------------------------------- */
+#barra-one{
+    /* Display flex ayuda a organizar las divisiones de manera horizontal */
+    display: flex;
+    margin-top: 5px;
+    background-color: rgba(245,237,255,255);
+}
+#today {
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    padding: 2px;
+}
+#to{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    font-size: 30px;
+    background-color: rgba(221,183,255,255);
+    border-radius: 10px;
+}
+#tomorrow{
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    padding: 2px;
+}
+#tom{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    font-size: 30px;
     background-color: aqua;
+    border-radius: 10px;
+}
+#days10{
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    padding: 2px;
+}
+#day{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+/* ----------------------------------------- */
+#barra-two{
+        /* Display flex ayuda a organizar las divisiones de manera horizontal */
+        display: flex; 
+        margin-top: 10px;
+        background-color: rgba(245,237,255,255);
+}
+#velocidadviento{
+    width: 50%;
+    height: 180px;
+    padding: 5px;
+    border: solid 2px;
+    border-radius: 25px;
+    margin-right: 2px;
+    background-color: rgba(234,222,255,255);
+}
+#precipataciones{
+    width: 50%;
+    height: 180px;
+    padding: 5px;
+    border: solid 2px;
+    border-radius: 25px;
+    margin-right: 2px;
+    background-color: rgba(234,222,255,255);
+}
+/* ---------------------------------------------- */
+#barra-three{
+    display: flex;
+    margin-top: 10px;
+    background-color: rgba(245,237,255,255);
+}
+
+#pressure{
+    width: 48%;
+    height: 25vh;
+    border: solid 3px;
+    padding: 5px;
+    border-radius: 25px;
+    margin-right: 2px;
+    background-color: rgba(234,222,255,255);
 
 
 }
+#UVindex{
+    width: 48%;
+    height: 25vh;
+    border: solid 3px;
+    padding: 5px;
+    border-radius: 25px;
+    margin-left: 2px;
+    background-color: rgba(234,222,255,255);
+}
+/* ---------------------------------------------- */
+#pronosticoxhora{
+    width: 95%;
+    height: 40vh; 
+    border: solid 5px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgba(234,222,255,255);
+}
+#pronosticoxdias{
+    width: 95%;
+    height: 40vh; 
+    border: solid 5px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgba(234,222,255,255);
+}
+#probabilidaddelluvia{
+
+    width: 95%;
+    height: 40vh; 
+    border: solid 5px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgba(234,222,255,255);
+}
+/* ------------------------------------------------------ */
+#tiempos{
+    display: flex;
+    margin-top: 10px;
+    
+}
+#amanecer{
+    width: 48%;
+    height: 25vh;
+    border: solid 3px;
+    padding: 5px;
+    border-radius: 25px;
+    margin-right: 2px;
+    background-color: rgba(234,222,255,255);
+}
+#atardecer{
+    width: 48%;
+    height: 25vh;
+    border: solid 3px;
+    padding: 5px;
+    border-radius: 25px;
+    margin-right: 2px;
+    background-color: rgba(234,222,255,255);
+}
+
+
